@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fizz Buzz</title>
+    <link rel="stylesheet" href="../styles/fizzbuzz.css" />
+    <script src="../js/fizzbuzz.js" defer></script>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="">Fizz Buzz</a></li>
+      </ul>
+    </nav>
+    <!-- PROJECT TITLE -->
+    <header>
+      <div class="title">
+        <h1>Fizz Buzz Project</h1>
+      </div>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- PART WITH INPUTS AND TEXT -->
+      <div class="input-container">
+        <div class="form">
+          <!-- INPUTS -->
+          <div class="inputs">
+            <div class="field">
+              <p class="input-text">Fizz Value <em>(default 3)</em>:</p>
+              <input type="number" class="input" id="fizz-value" />
+            </div>
+            <div class="field">
+              <p class="input-text">Buzz Value <em>(default 5)</em>:</p>
+              <input type="number" class="input" id="buzz-value" />
+            </div>
+            <div class="field">
+              <p class="input-text">Start Range <em>(default 1)</em>:</p>
+              <input type="number" class="input" id="start-range" />
+            </div>
+            <div class="field">
+              <p class="input-text">End Range <em>(default 100)</em>:</p>
+              <input type="number" class="input" id="end-range" />
+            </div>
+          </div>
+          <!-- BUTTONS -->
+          <div class="btns">
+            <button class="btn generate-btn">Generate</button>
+            <button class="btn reset-btn">Reset</button>
+          </div>
+        </div>
+        <!-- TEXT DESCRIPTION -->
+        <div class="text">
+          <p>
+            <strong>Fizz buzz</strong> is a group word game for children to
+            teach them about division. Players take turns to count
+            incrementally, replacing any number divisible by three with the word
+            "fizz", and any number divisible by five with the word "buzz", and
+            any number divisible by both 3 and 5 with the word "fizzbuzz".
+          </p>
+        </div>
+      </div>
+      <!-- OUTPUT CONTAINER -->
+      <div class="output-container"></div>
+    </main>
+    <footer>
+      <p>&copy; Stanislav Radevich 2023</p>
+    </footer>
+  </body>
+</html>
